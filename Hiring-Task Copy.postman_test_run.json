@@ -1,0 +1,1149 @@
+{
+	"id": "3f103fe1-2df2-4085-a592-da109c615ce9",
+	"name": "Hiring-Task Copy",
+	"timestamp": "2022-03-08T10:17:02.443Z",
+	"collection_id": "18052955-587e7471-07a4-4999-9eb3-171a3ee7c06e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 92,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9bb668fd-1dce-4e55-a360-b16c551a45fe",
+			"name": "TEST - Sign Up - No Body",
+			"url": "http://localhost:4000/signup",
+			"time": 14,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'fields can't be empty'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'fields can't be empty'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'fields can't be empty'": true
+				}
+			]
+		},
+		{
+			"id": "9d8e16d3-326b-4895-8399-1441f8b89d38",
+			"name": "TEST - Sign Up - Missing Data1",
+			"url": "http://localhost:4000/signup",
+			"time": 13,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'fields can't be empty'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'fields can't be empty'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'fields can't be empty'": true
+				}
+			]
+		},
+		{
+			"id": "f73ec0c8-7326-48ee-ab14-89ccb67f154d",
+			"name": "TEST - Sign Up - Missing Data2",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'fields can't be empty'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'fields can't be empty'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'fields can't be empty'": true
+				}
+			]
+		},
+		{
+			"id": "a03d4ed4-00cd-4f1d-a7df-1228bbe47ce2",
+			"name": "TEST - Sign Up - Missing Data3",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'fields can't be empty'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'fields can't be empty'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'fields can't be empty'": true
+				}
+			]
+		},
+		{
+			"id": "de5ca904-73dc-4750-bdb4-e805900d9c8d",
+			"name": "TEST - Sign Up - Missing Data4",
+			"url": "http://localhost:4000/signup",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'fields can't be empty'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'fields can't be empty'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'fields can't be empty'": true
+				}
+			]
+		},
+		{
+			"id": "41d13cc0-2a65-437d-82f6-678f2f0969ac",
+			"name": "TEST - Sign Up - Username Length",
+			"url": "http://localhost:4000/signup",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'username check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'username check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'username check failed'": true
+				}
+			]
+		},
+		{
+			"id": "30769c87-7b73-4515-ab0c-1dea9baa13a0",
+			"name": "TEST - Sign Up - Username Regex1",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'username check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'username check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'username check failed'": true
+				}
+			]
+		},
+		{
+			"id": "246c6f6b-2eff-4f2d-a789-c59f1a94083e",
+			"name": "TEST - Sign Up - Username Regex2",
+			"url": "http://localhost:4000/signup",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'username check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'username check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'username check failed'": true
+				}
+			]
+		},
+		{
+			"id": "c5afb40e-667f-4b75-ab59-49e5a7496710",
+			"name": "TEST - Sign Up - Username Regex3",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'username check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'username check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'username check failed'": true
+				}
+			]
+		},
+		{
+			"id": "5387f9b4-add6-4d13-b3f1-86815f428fa3",
+			"name": "TEST - Sign Up - Password Length",
+			"url": "http://localhost:4000/signup",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'password check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'password check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'password check failed'": true
+				}
+			]
+		},
+		{
+			"id": "66893e8d-8fa9-4fe7-8986-106b2c0b14bc",
+			"name": "TEST - Sign Up - Password Regex1",
+			"url": "http://localhost:4000/signup",
+			"time": 6,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'password check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'password check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'password check failed'": true
+				}
+			]
+		},
+		{
+			"id": "ab0132f6-0ec9-4122-971c-afa1f7b37eea",
+			"name": "TEST - Sign Up - Password Regex2",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'password check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'password check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'password check failed'": true
+				}
+			]
+		},
+		{
+			"id": "a20b46e9-76c1-496f-b6ef-d8025d8d9805",
+			"name": "TEST - Sign Up - Password Regex3",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'password check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'password check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'password check failed'": true
+				}
+			]
+		},
+		{
+			"id": "b626c721-fecb-437b-804d-78c19a921162",
+			"name": "TEST - Sign Up - Name Regex1",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'fname or lname check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'fname or lname check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'fname or lname check failed'": true
+				}
+			]
+		},
+		{
+			"id": "b6618904-4269-4e19-a6c8-494a3a33c491",
+			"name": "TEST - Sign Up - Name Regex2",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'fname or lname check failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'fname or lname check failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'fname or lname check failed'": true
+				}
+			]
+		},
+		{
+			"id": "e6d25903-a552-4720-a4c3-41ae02feab0e",
+			"name": "TEST - Sign Up - Unique Username",
+			"url": "http://localhost:4000/signup",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'username already exists'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'username already exists'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'username already exists'": true
+				}
+			]
+		},
+		{
+			"id": "6f0eacb7-0b75-4480-ab36-f0de6b5c26cb",
+			"name": "TEST - Sign In - No Body",
+			"url": "http://localhost:4000/signin",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'Please provide username and password'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'Please provide username and password'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'Please provide username and password'": true
+				}
+			]
+		},
+		{
+			"id": "1329d7c4-8c75-45c2-a042-6a0876138422",
+			"name": "TEST - Sign In - Missing Data1",
+			"url": "http://localhost:4000/signin",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'Please provide username and password'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'Please provide username and password'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'Please provide username and password'": true
+				}
+			]
+		},
+		{
+			"id": "d32465c8-666f-47d4-b02c-e06e7c268431",
+			"name": "TEST - Sign In - Missing Data2",
+			"url": "http://localhost:4000/signin",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'Please provide username and password'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'Please provide username and password'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'Please provide username and password'": true
+				}
+			]
+		},
+		{
+			"id": "20e6cb1e-b2c5-4b3b-b8e9-091793a84c3b",
+			"name": "TEST - Sign In - Invalid Credentials",
+			"url": "http://localhost:4000/signin",
+			"time": 4,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status is 400 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'Invalid username/password'": true
+			},
+			"testPassFailCounts": {
+				"Status is 400 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'Invalid username/password'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status is 400 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'Invalid username/password'": true
+				}
+			]
+		},
+		{
+			"id": "08df0134-cc72-4066-9a07-6b781c0342b4",
+			"name": "TEST - Access Info - No Token",
+			"url": "http://localhost:4000/user/me",
+			"time": 5,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status is 401 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'Please provide a JWT token'": true
+			},
+			"testPassFailCounts": {
+				"Status is 401 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'Please provide a JWT token'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 401 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'Please provide a JWT token'": true
+				}
+			]
+		},
+		{
+			"id": "20614248-39e9-4694-9595-9cfd4f7b850c",
+			"name": "TEST - Access Info - Invalid Token",
+			"url": "http://localhost:4000/user/me",
+			"time": 5,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status is 401 on success": true,
+				"The result response has all required properties": true,
+				"The result response has result key equal to true": true,
+				"The error response has message key equal to 'JWT Verification Failed'": true
+			},
+			"testPassFailCounts": {
+				"Status is 401 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The result response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The error response has message key equal to 'JWT Verification Failed'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status is 401 on success": true,
+					"The result response has all required properties": true,
+					"The result response has result key equal to true": true,
+					"The error response has message key equal to 'JWT Verification Failed'": true
+				}
+			]
+		},
+		{
+			"id": "cddfd0c3-c7ba-4e7e-b9fb-a353c0bf2cb2",
+			"name": "SIgn Up",
+			"url": "http://localhost:4000/signup",
+			"time": 54,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is 200 on success": true,
+				"The success response has all required properties": true,
+				"The success response has result key equal to true": true,
+				"The success response has message key equal to 'SignUp success. Please proceed to Signin'": true
+			},
+			"testPassFailCounts": {
+				"Status is 200 on success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The success response has all required properties": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The success response has result key equal to true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The success response has message key equal to 'SignUp success. Please proceed to Signin'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"Status is 200 on success": true,
+					"The success response has all required properties": true,
+					"The success response has result key equal to true": true,
+					"The success response has message key equal to 'SignUp success. Please proceed to Signin'": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 185,
+	"collection": {
+		"requests": [
+			{
+				"id": "9bb668fd-1dce-4e55-a360-b16c551a45fe",
+				"method": "POST"
+			},
+			{
+				"id": "9d8e16d3-326b-4895-8399-1441f8b89d38",
+				"method": "POST"
+			},
+			{
+				"id": "f73ec0c8-7326-48ee-ab14-89ccb67f154d",
+				"method": "POST"
+			},
+			{
+				"id": "a03d4ed4-00cd-4f1d-a7df-1228bbe47ce2",
+				"method": "POST"
+			},
+			{
+				"id": "de5ca904-73dc-4750-bdb4-e805900d9c8d",
+				"method": "POST"
+			},
+			{
+				"id": "41d13cc0-2a65-437d-82f6-678f2f0969ac",
+				"method": "POST"
+			},
+			{
+				"id": "30769c87-7b73-4515-ab0c-1dea9baa13a0",
+				"method": "POST"
+			},
+			{
+				"id": "246c6f6b-2eff-4f2d-a789-c59f1a94083e",
+				"method": "POST"
+			},
+			{
+				"id": "c5afb40e-667f-4b75-ab59-49e5a7496710",
+				"method": "POST"
+			},
+			{
+				"id": "5387f9b4-add6-4d13-b3f1-86815f428fa3",
+				"method": "POST"
+			},
+			{
+				"id": "66893e8d-8fa9-4fe7-8986-106b2c0b14bc",
+				"method": "POST"
+			},
+			{
+				"id": "ab0132f6-0ec9-4122-971c-afa1f7b37eea",
+				"method": "POST"
+			},
+			{
+				"id": "a20b46e9-76c1-496f-b6ef-d8025d8d9805",
+				"method": "POST"
+			},
+			{
+				"id": "b626c721-fecb-437b-804d-78c19a921162",
+				"method": "POST"
+			},
+			{
+				"id": "b6618904-4269-4e19-a6c8-494a3a33c491",
+				"method": "POST"
+			},
+			{
+				"id": "e6d25903-a552-4720-a4c3-41ae02feab0e",
+				"method": "POST"
+			},
+			{
+				"id": "6f0eacb7-0b75-4480-ab36-f0de6b5c26cb",
+				"method": "POST"
+			},
+			{
+				"id": "1329d7c4-8c75-45c2-a042-6a0876138422",
+				"method": "POST"
+			},
+			{
+				"id": "d32465c8-666f-47d4-b02c-e06e7c268431",
+				"method": "POST"
+			},
+			{
+				"id": "20e6cb1e-b2c5-4b3b-b8e9-091793a84c3b",
+				"method": "POST"
+			},
+			{
+				"id": "08df0134-cc72-4066-9a07-6b781c0342b4",
+				"method": "GET"
+			},
+			{
+				"id": "20614248-39e9-4694-9595-9cfd4f7b850c",
+				"method": "GET"
+			},
+			{
+				"id": "cddfd0c3-c7ba-4e7e-b9fb-a353c0bf2cb2",
+				"method": "POST"
+			},
+			{
+				"id": "27d53fc0-7122-4214-94c4-f7a5d1463107",
+				"method": "POST"
+			}
+		]
+	}
+}
